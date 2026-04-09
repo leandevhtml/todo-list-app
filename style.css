@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.container {
+    width: 350px;
+    margin: 60px auto;
+    background: white;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+button {
+    border: none;
+    background: #4facfe;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.filtros  {
+    margin: 10px;
+}
+
+button:hover {
+    background: #007bff;
+}
+
+.filtros {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}

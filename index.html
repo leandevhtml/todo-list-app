@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+
+    <!-- Conecta o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Minha Lista de Tarefas</h1>
+
+        <!-- Formulário -->
+        <form id="form-tarefa">
+            <input type="text" id="input-tarefa" placeholder="Digite uma tarefa">
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <div class="filtros">   
+            <button onclick="filtrar('todas')">Todas</button>
+            <button onclick="filtrar('pendentes')">Pendentes</button>
+            <button onclick="filtrar('concluidas')">Concluidas</button>
+        </div>
+
+        <!-- Lista -->
+        <ul id="lista-tarefas"></ul>
+    </div>
+
+    <p id="contador"></p>
+
+    <!-- Conecta o JS -->
+    <script src="script.js"></script>
+</body>
+</html>
